@@ -7,7 +7,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="########",
+            password="YOUR ACTUAL PASSWORD",
             database="emp"
         )
         if connection.is_connected():
@@ -157,3 +157,4 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+
